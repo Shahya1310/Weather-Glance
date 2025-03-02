@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http'; // ✅ Import this
+import { FormsModule } from '@angular/forms'; // ✅ Needed for [(ngModel)]
+
+import { SearchComponent } from './components/search/search.component'; // ✅ Correct path
+import { WeatherDisplayComponent } from './components/weather-display/weather-display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchComponent,
+    WeatherDisplayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule, // ✅ Add this for API calls
+    FormsModule // ✅ Needed for two-way data binding in search input
   ],
   providers: [],
   bootstrap: [AppComponent]
