@@ -11,7 +11,8 @@ import { WeatherDisplayComponent } from './components/weather-display/weather-di
   declarations: [
     AppComponent,
     SearchComponent,
-    WeatherDisplayComponent
+    WeatherDisplayComponent,
+    
   ],
   imports: [
     BrowserModule,
