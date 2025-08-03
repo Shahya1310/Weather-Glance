@@ -1,3 +1,10 @@
+body {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(90%);
+}
+
 .weather-container {
     position: fixed;
     top: 0;
@@ -44,5 +51,56 @@
     p {
       font-size: 1rem;
     }
+    
+    
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .search-box input {
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #ddd;
+      width: 250px;
+      font-size: 16px;
+    }
+    
+  }
+  .search-box button{
+    background-color: #edea48; /* Warm yellow */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .search-box button:hover {
+    background-color: #ff914d; /* Lighter yellow on hover */
+  }
+  .location-title {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .temperature img {
+    width: 20px;
+    height: 20px;
   }
   

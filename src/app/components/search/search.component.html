@@ -1,4 +1,9 @@
-<div class="weather-container" [ngStyle]="{'background': backgroundStyle}">
+<div class="weather-container" [ngStyle]="{
+       'background': backgroundStyle,
+       'background-repeat': 'no-repeat',
+       'background-position': 'center',
+       'background-size': 'cover'
+     }">
     <div *ngIf="userLocationWeather">
       <h2>📍 Your Location: {{ userLocationWeather.name }}, {{ userLocationWeather.sys?.country }}</h2>
       <p>🌡 Temperature: {{ userLocationWeather.main?.temp }}°C</p>
