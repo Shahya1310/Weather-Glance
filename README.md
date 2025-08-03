@@ -1,3 +1,9 @@
+Snippets of the Application:
+
+<img width="1919" height="887" alt="image" src="https://github.com/user-attachments/assets/f1e716cb-6dd7-4ccd-9606-3bc8a02ee600" />
+<img width="1748" height="854" alt="image" src="https://github.com/user-attachments/assets/d04a6b51-4211-4f98-bf6c-dd67a8509c6a" />
+
+
 # WeatherGlance
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
